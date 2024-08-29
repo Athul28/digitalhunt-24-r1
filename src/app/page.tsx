@@ -9,7 +9,7 @@ export default function Home() {
       <p>Round1 puzzles</p>
      <ul>
 
-      <li><Link href={"/responsive"} className="underline text-blue-500 italic">1. responsive puzzle</Link></li>
+      <li><Link href={"/puzzle1"} className="underline text-blue-500 italic">1. responsive puzzle</Link></li>
       <li className="text-sm">*add new puzzles here*</li> 
         
      </ul>

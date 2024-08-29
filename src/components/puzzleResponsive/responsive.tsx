@@ -30,9 +30,9 @@ export default function PuzzleResponsive() {
   return (
     <div>
       <h2 className='text-center'>This is a responsive puzzle</h2>
-      <div className="flex justify-between mt-24" >
-        <div className="lock rounded-md w-24 h-24 bg-red-400"></div>
-        <div className="key rounded-md w-24 h-24 bg-green-300"></div>
+      <div className="flex justify-between mt-24 text-center text-black " >
+        <div className="lock rounded-md w-24 h-24 bg-red-400">lock</div>
+        <div className="key rounded-md w-24 h-24 bg-green-300">key</div>
       </div>
     </div>
   );
