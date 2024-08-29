@@ -3,8 +3,7 @@ import PuzzleResponsive from '@/components/puzzleResponsive/responsive'
 export default function Responive() {
   return (
     <div>
-
-<PuzzleResponsive></PuzzleResponsive>
+      <PuzzleResponsive></PuzzleResponsive>
     </div>
   )
 }
