@@ -12,7 +12,7 @@ export default function Page() {
   return (
     <div>
       <div>
-        <div className='flex justify-between p-3 fixed w-full'>
+        <div className='flex justify-between p-4 fixed w-full '>
           <div className='p-2'>Points : {points}</div>
           <button onClick={() => setViewDialogView(prev => !prev)} className='bg-green-400 rounded-md p-2'>
             Rules
