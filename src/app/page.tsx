@@ -8,6 +8,7 @@ export default function Home() {
      	<ul>
 			<li><Link href={"/puzzle1"} className="underline text-blue-500 italic">1. responsive puzzle</Link></li>
 			<li><Link href={"/puzzle2"} className="underline text-blue-500 italic">2. Quizzes, SOSC inspired</Link></li>
+			<li><Link href={"/puzzle3" } className="underline text-blue-500 italic">3. A simple click</Link></li>
       		
      	</ul>
 
