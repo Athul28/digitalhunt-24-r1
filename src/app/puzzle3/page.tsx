@@ -13,14 +13,14 @@ export default function Page() {
     .then((ans)=> {answer=ans})
     .then(()=>{
       if(btnRef.current) {
-        btnRef.current.textContent = answer;
+        btnRef.current.innerHTML += answer;
       }
     })
   }
 
   return (
     <button style={{border: "2px solid white", padding: "2px"}} onClick={showAnswer} ref={btnRef}>
-      <Link href={"/"}>Click me</Link>
+      <Link href={"/"}><img src={"https://placehold.co/600x400"} alt="click me" width={600} height={400}></img></Link>
     </button>
   );
 }
