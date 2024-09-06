@@ -8,7 +8,7 @@ export default function Page() {
   const showAnswer = () => {
     let answer = ""
     //api call to the answer
-    fetch("http://localhost:5000/show-answer")
+    fetch("/api/show-answer")
     .then((data)=> data.text())
     .then((ans)=> {answer=ans})
     .then(()=>{

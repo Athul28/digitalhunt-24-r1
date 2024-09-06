@@ -12,7 +12,7 @@ function JwtPuzzle(){
 
     const fetchJWT = async () => {
         try{
-            const response = await axios.get("http://localhost:5000/get-jwt");
+            const response = await axios.get("/api/get-jwt");
             if(response.data.token){
                 localStorage.setItem("jwt",response.data.token);
                 setToken(response.data.token);
@@ -58,7 +58,7 @@ function JwtPuzzle(){
                         showHint && (
                             <>
                                 <div>
-                                    JWT's are stored in the local storage. Press f12
+                                    JWT&aposs are stored in the local storage. Press f12
                                 </div>
                             </>
                         )
